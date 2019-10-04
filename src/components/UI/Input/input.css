@@ -1,0 +1,26 @@
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.input__input {
+    background: transparent;
+    border: none;
+    border-bottom: solid .5rem;
+    font-size: inherit;
+    color: inherit;
+    width: 100%;
+    text-align: center;
+}
+
+.input__box {
+    width: 60%;
+}
+
+.label {
+    width: 40%;
+}

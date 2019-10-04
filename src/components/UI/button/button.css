@@ -1,0 +1,74 @@
+.button {
+    position: relative;
+    color: inherit;
+    display: flex;
+    background:#00796B;
+    border: solid 1rem #00796B;
+    font-size: 3rem;
+    margin: 4rem auto;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .5rem #000;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.button:hover,
+.button:focus {
+    top: -.4rem;
+    box-shadow: 0 .6rem .5rem #000;
+}
+
+.button:active {
+    top: .2rem;
+    box-shadow: 0 .2rem .5rem #000;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.button-box .button {
+    margin: 0;
+}
+
+.button__link {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.button__link--download {
+    margin: 0;
+}
+
+.button__search {
+    margin: 0;
+    text-decoration: none;
+    background: #12C277;
+    border: solid 1rem #12C277;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .5);
+}
+
+.button__icon {
+    fill: #fff;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.button__delete {
+    margin: 0;
+    background: #94090D;
+    border: solid 1rem #94090D; /*#B9121B*/
+}
+
+.button__search:hover,
+.button__search:focus {
+    box-shadow: 0 .6rem .5rem rgba(0, 0, 0, .5);
+}
+
+.button__search:active {
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .5);
+}

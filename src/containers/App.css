@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.App__title {
+  margin: 3rem 0 6rem 0;
+  font-size: 6rem;
+  border-bottom: solid .7rem;
+  display: inline-block;
+}

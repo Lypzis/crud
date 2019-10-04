@@ -1,0 +1,9 @@
+.Contract {
+    position: relative;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.Contract__field {
+    margin-bottom: 3rem;
+}
